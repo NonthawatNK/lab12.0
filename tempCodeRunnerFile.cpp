@@ -1,14 +1,10 @@
 #include <iostream>
 #include <cmath>
-
 using namespace std;
-
 const int N = 30;
 const int M = 70;
 void updateImage(bool [][M],int,int,int);
-
 void showImage(const bool [][M]);
-
 int main()
 {
     bool image[N][M] = {};
